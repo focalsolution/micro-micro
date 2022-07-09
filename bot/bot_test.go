@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/agent/command"
-	"github.com/micro/go-micro/agent/input"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/agent/command"
+	"github.com/focalsolution/micro-go-micro/agent/input"
 
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/registry/memory"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/registry/memory"
 )
 
 type testInput struct {

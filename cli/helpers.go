@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/cmd"
-	clic "github.com/micro/micro/internal/command/cli"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	clic "github.com/focalsolution/micro-micro/internal/command/cli"
 )
 
 type exec func(*cli.Context, []string) ([]byte, error)

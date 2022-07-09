@@ -1,4 +1,4 @@
-module github.com/micro/micro
+module github.com/focalsolution/micro-micro
 
 go 1.13
 
@@ -14,8 +14,8 @@ require (
 	github.com/gorilla/handlers v1.4.2
 	github.com/gorilla/mux v1.7.3
 	github.com/hako/branca v0.0.0-20180808000428-10b799466ada
-	github.com/micro/cli v0.2.0
-	github.com/micro/go-micro v1.16.0
+	github.com/focalsolution/micro-cli v0.2.1
+	github.com/focalsolution/micro-go-micro v1.18.2-focal
 	github.com/miekg/dns v1.1.22
 	github.com/olekukonko/tablewriter v0.0.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible

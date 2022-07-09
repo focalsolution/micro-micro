@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/micro/cli"
-	goplugin "github.com/micro/go-micro/plugin"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-cli"
+	goplugin "github.com/focalsolution/micro-go-micro/plugin"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-micro/plugin"
 )
 
 func build(ctx *cli.Context) {
@@ -31,9 +31,9 @@ func build(ctx *cli.Context) {
 
 	// set the path
 	if len(path) == 0 {
-		// github.com/micro/go-plugins/broker/rabbitmq
-		// github.com/micro/go-plugins/micro/basic_auth
-		path = filepath.Join("github.com/micro/go-plugins", typ, name)
+		// github.com/focalsolution/micro-go-plugins/broker/rabbitmq
+		// github.com/focalsolution/micro-go-plugins/focalsolution/micro-basic_auth
+		path = filepath.Join("github.com/focalsolution/micro-go-plugins", typ, name)
 	}
 
 	// set the newfn

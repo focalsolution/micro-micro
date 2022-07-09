@@ -7,9 +7,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-micro/plugin"
 )
 
 func init() {

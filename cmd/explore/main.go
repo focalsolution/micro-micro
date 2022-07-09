@@ -132,7 +132,7 @@ func get(term string) func(ctx context.Context, c *github.Client) ([]*github.Rep
 			}
 			so.ListOptions = github.ListOptions{Page: page}
 
-			search := fmt.Sprintf(`"github.com/micro/%s"`, term)
+			search := fmt.Sprintf(`"github.com/focalsolution/micro-%s"`, term)
 			res, rsp, err := c.Search.Code(ctx, search, so)
 			if err != nil {
 				fmt.Printf("[%s] error searching %v\n", term, err)

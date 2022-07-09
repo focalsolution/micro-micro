@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/micro/internal/helper"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/errors"
+	"github.com/focalsolution/micro-micro/internal/helper"
 )
 
 type rpcRequest struct {

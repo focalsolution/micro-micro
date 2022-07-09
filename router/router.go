@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/router"
-	"github.com/micro/go-micro/router/handler"
-	pb "github.com/micro/go-micro/router/proto"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/router"
+	"github.com/focalsolution/micro-go-micro/router/handler"
+	pb "github.com/focalsolution/micro-go-micro/router/proto"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 var (

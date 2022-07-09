@@ -30,7 +30,7 @@ type Update struct {
 
 // get the latest commit
 func getLatestCommit() (string, error) {
-	rsp, err := http.Get("https://api.github.com/repos/micro/micro/commits")
+	rsp, err := http.Get("https://api.github.com/repos/focalsolution/micro-micro/commits")
 	if err != nil {
 		return "", err
 	}
@@ -55,7 +55,7 @@ func getLatestCommit() (string, error) {
 }
 
 func getLatestRelease() (string, error) {
-	rsp, err := http.Get("https://api.github.com/repos/micro/micro/releases")
+	rsp, err := http.Get("https://api.github.com/repos/focalsolution/micro-micro/releases")
 	if err != nil {
 		return "", err
 	}
@@ -80,7 +80,7 @@ func getLatestRelease() (string, error) {
 }
 
 func getLatestImage() (string, error) {
-	rsp, err := http.Get("https://hub.docker.com/v2/repositories/micro/micro/tags/latest")
+	rsp, err := http.Get("https://hub.docker.com/v2/repositories/focalsolution/micro-micro/tags/latest")
 	if err != nil {
 		return "", err
 	}

@@ -12,16 +12,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/client"
-	cbytes "github.com/micro/go-micro/codec/bytes"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/metadata"
-	"github.com/micro/go-micro/registry"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/client"
+	cbytes "github.com/focalsolution/micro-go-micro/codec/bytes"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/metadata"
+	"github.com/focalsolution/micro-go-micro/registry"
 
-	proto "github.com/micro/go-micro/debug/proto"
+	proto "github.com/focalsolution/micro-go-micro/debug/proto"
 
-	dns "github.com/micro/micro/network/dns/proto/dns"
+	dns "github.com/focalsolution/micro-micro/network/dns/proto/dns"
 
 	"github.com/olekukonko/tablewriter"
 	"github.com/serenize/snaker"

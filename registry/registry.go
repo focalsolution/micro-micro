@@ -9,16 +9,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/registry/service"
-	"github.com/micro/go-micro/registry/service/handler"
-	pb "github.com/micro/go-micro/registry/service/proto"
-	"github.com/micro/go-micro/util/backoff"
-	"github.com/micro/go-micro/util/log"
-	rcli "github.com/micro/micro/cli"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/client"
+	"github.com/focalsolution/micro-go-micro/registry"
+	"github.com/focalsolution/micro-go-micro/registry/service"
+	"github.com/focalsolution/micro-go-micro/registry/service/handler"
+	pb "github.com/focalsolution/micro-go-micro/registry/service/proto"
+	"github.com/focalsolution/micro-go-micro/util/backoff"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	rcli "github.com/focalsolution/micro-micro/cli"
 )
 
 var (

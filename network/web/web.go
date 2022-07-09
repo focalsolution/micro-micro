@@ -11,10 +11,10 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/config/cmd"
-	pb "github.com/micro/go-micro/network/proto"
-	"github.com/micro/go-micro/web"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	pb "github.com/focalsolution/micro-go-micro/network/proto"
+	"github.com/focalsolution/micro-go-micro/web"
 )
 
 func toMap(peer *pb.Peer, peers map[string]string) map[string]string {

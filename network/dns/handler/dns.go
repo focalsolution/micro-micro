@@ -3,11 +3,11 @@ package handler
 import (
 	"context"
 
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/util/log"
 
-	"github.com/micro/go-micro/metadata"
-	dns "github.com/micro/micro/network/dns/proto/dns"
-	"github.com/micro/micro/network/dns/provider"
+	"github.com/focalsolution/micro-go-micro/metadata"
+	dns "github.com/focalsolution/micro-micro/network/dns/proto/dns"
+	"github.com/focalsolution/micro-micro/network/dns/provider"
 	"github.com/pkg/errors"
 )
 

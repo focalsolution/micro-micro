@@ -3,8 +3,8 @@ package handler
 import (
 	"context"
 
-	"github.com/micro/go-micro/monitor"
-	pb "github.com/micro/micro/monitor/proto"
+	"github.com/focalsolution/micro-go-micro/monitor"
+	pb "github.com/focalsolution/micro-micro/monitor/proto"
 )
 
 type Monitor struct {

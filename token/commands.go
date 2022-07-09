@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/micro/cli"
-	"github.com/micro/micro/internal/token"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-micro/internal/token"
 )
 
 func generate(ctx *cli.Context) {

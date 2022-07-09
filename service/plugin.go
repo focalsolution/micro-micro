@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 
-	"github.com/micro/micro/plugin"
+	"github.com/focalsolution/micro-micro/plugin"
 )
 
 var (

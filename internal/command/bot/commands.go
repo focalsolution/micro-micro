@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro/agent/command"
-	clic "github.com/micro/micro/internal/command/cli"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro/agent/command"
+	clic "github.com/focalsolution/micro-micro/internal/command/cli"
 )
 
 // Echo returns the same message

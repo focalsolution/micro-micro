@@ -11,9 +11,9 @@ import (
 
 	context "context"
 
-	client "github.com/micro/go-micro/client"
+	client "github.com/focalsolution/micro-go-micro/client"
 
-	server "github.com/micro/go-micro/server"
+	server "github.com/focalsolution/micro-go-micro/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

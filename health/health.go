@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/client"
-	proto "github.com/micro/go-micro/debug/proto"
-	"github.com/micro/go-micro/util/log"
-	mcli "github.com/micro/micro/cli"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/client"
+	proto "github.com/focalsolution/micro-go-micro/debug/proto"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	mcli "github.com/focalsolution/micro-micro/cli"
 	"golang.org/x/net/context"
 )
 

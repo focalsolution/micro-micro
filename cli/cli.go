@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/chzyer/readline"
-	"github.com/micro/cli"
+	"github.com/focalsolution/micro-cli"
 )
 
 var (

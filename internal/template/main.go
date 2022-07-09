@@ -4,8 +4,8 @@ var (
 	MainFNC = `package main
 
 import (
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-micro"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 )
@@ -36,8 +36,8 @@ func main() {
 	MainSRV = `package main
 
 import (
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-micro"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 
@@ -72,9 +72,9 @@ func main() {
 	MainAPI = `package main
 
 import (
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/util/log"
 
-	"github.com/micro/go-micro"
+	"github.com/focalsolution/micro-go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/client"
 
@@ -106,10 +106,10 @@ func main() {
 	MainWEB = `package main
 
 import (
-        "github.com/micro/go-micro/util/log"
+        "github.com/focalsolution/micro-go-micro/util/log"
 	"net/http"
 
-        "github.com/micro/go-micro/web"
+        "github.com/focalsolution/micro-go-micro/web"
         "{{.Dir}}/handler"
 )
 

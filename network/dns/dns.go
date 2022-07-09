@@ -2,13 +2,13 @@
 package dns
 
 import (
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/util/log"
 
-	"github.com/micro/micro/network/dns/handler"
-	dns "github.com/micro/micro/network/dns/proto/dns"
-	"github.com/micro/micro/network/dns/provider/cloudflare"
+	"github.com/focalsolution/micro-micro/network/dns/handler"
+	dns "github.com/focalsolution/micro-micro/network/dns/proto/dns"
+	"github.com/focalsolution/micro-micro/network/dns/provider/cloudflare"
 )
 
 // Run is the entrypoint for network/dns

@@ -2,12 +2,12 @@
 package runtime
 
 import (
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/runtime/service/handler"
-	pb "github.com/micro/go-micro/runtime/service/proto"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/config/cmd"
+	"github.com/focalsolution/micro-go-micro/runtime/service/handler"
+	pb "github.com/focalsolution/micro-go-micro/runtime/service/proto"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 var (

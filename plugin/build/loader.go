@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/micro/go-micro/plugin"
+	"github.com/focalsolution/micro-go-micro/plugin"
 )
 
 func buildSo(soPath string, parts []string) error {
@@ -31,7 +31,7 @@ func buildSo(soPath string, parts []string) error {
 	if err := plugin.Build(soPath, &plugin.Config{
 		Name:    name,
 		Type:    typ,
-		Path:    filepath.Join(append([]string{"github.com/micro/go-plugins"}, parts...)...),
+		Path:    filepath.Join(append([]string{"github.com/focalsolution/micro-go-plugins"}, parts...)...),
 		NewFunc: newfn,
 	}); err != nil {
 		return fmt.Errorf("Failed to build plugin %s: %v", name, err)

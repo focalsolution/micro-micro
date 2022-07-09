@@ -2,12 +2,12 @@
 package monitor
 
 import (
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/monitor"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/micro/monitor/handler"
-	pb "github.com/micro/micro/monitor/proto"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/monitor"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-micro/monitor/handler"
+	pb "github.com/focalsolution/micro-micro/monitor/proto"
 )
 
 var (

@@ -11,9 +11,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/micro/cli"
-	tmpl "github.com/micro/micro/internal/template"
-	"github.com/micro/micro/internal/usage"
+	"github.com/focalsolution/micro-cli"
+	tmpl "github.com/focalsolution/micro-micro/internal/template"
+	"github.com/focalsolution/micro-micro/internal/usage"
 	"github.com/xlab/treeprint"
 )
 
@@ -28,9 +28,9 @@ type config struct {
 	Type string
 	// go.micro.srv.foo
 	FQDN string
-	// github.com/micro/foo
+	// github.com/focalsolution/micro-foo
 	Dir string
-	// $GOPATH/src/github.com/micro/foo
+	// $GOPATH/src/github.com/focalsolution/micro-foo
 	GoDir string
 	// $GOPATH
 	GoPath string
@@ -256,7 +256,7 @@ func run(ctx *cli.Context) {
 				"\ndownload protobuf for micro:\n",
 				"brew install protobuf",
 				"go get -u github.com/golang/protobuf/{proto,protoc-gen-go}",
-				"go get -u github.com/micro/protoc-gen-micro",
+				"go get -u github.com/focalsolution/micro-protoc-gen-micro",
 				"\ncompile the proto file " + alias + ".proto:\n",
 				"cd " + goDir,
 				"protoc --proto_path=.:$GOPATH/src --go_out=. --micro_out=. proto/" + alias + "/" + alias + ".proto\n",
@@ -288,7 +288,7 @@ func run(ctx *cli.Context) {
 				"\ndownload protobuf for micro:\n",
 				"brew install protobuf",
 				"go get -u github.com/golang/protobuf/{proto,protoc-gen-go}",
-				"go get -u github.com/micro/protoc-gen-micro",
+				"go get -u github.com/focalsolution/micro-protoc-gen-micro",
 				"\ncompile the proto file " + alias + ".proto:\n",
 				"cd " + goDir,
 				"protoc --proto_path=.:$GOPATH/src --go_out=. --micro_out=. proto/" + alias + "/" + alias + ".proto\n",
@@ -320,7 +320,7 @@ func run(ctx *cli.Context) {
 				"\ndownload protobuf for micro:\n",
 				"brew install protobuf",
 				"go get -u github.com/golang/protobuf/{proto,protoc-gen-go}",
-				"go get -u github.com/micro/protoc-gen-micro",
+				"go get -u github.com/focalsolution/micro-protoc-gen-micro",
 				"\ncompile the proto file " + alias + ".proto:\n",
 				"cd " + goDir,
 				"protoc --proto_path=.:$GOPATH/src --go_out=. --micro_out=. proto/" + alias + "/" + alias + ".proto\n",

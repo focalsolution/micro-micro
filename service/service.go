@@ -5,16 +5,16 @@ import (
 	"os"
 	"strings"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/proxy"
-	"github.com/micro/go-micro/proxy/grpc"
-	"github.com/micro/go-micro/proxy/http"
-	"github.com/micro/go-micro/proxy/mucp"
-	"github.com/micro/go-micro/runtime"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/log"
-	"github.com/micro/go-micro/util/mux"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/proxy"
+	"github.com/focalsolution/micro-go-micro/proxy/grpc"
+	"github.com/focalsolution/micro-go-micro/proxy/http"
+	"github.com/focalsolution/micro-go-micro/proxy/mucp"
+	"github.com/focalsolution/micro-go-micro/runtime"
+	"github.com/focalsolution/micro-go-micro/server"
+	"github.com/focalsolution/micro-go-micro/util/log"
+	"github.com/focalsolution/micro-go-micro/util/mux"
 )
 
 func run(ctx *cli.Context, opts ...micro.Option) {

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	"github.com/micro/cli"
+	"github.com/focalsolution/micro-cli"
 )
 
 func quit(c *cli.Context, args []string) ([]byte, error) {

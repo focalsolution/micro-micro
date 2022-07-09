@@ -4,11 +4,11 @@ package broker
 import (
 	"time"
 
-	"github.com/micro/cli"
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/broker/service/handler"
-	pb "github.com/micro/go-micro/broker/service/proto"
-	"github.com/micro/go-micro/util/log"
+	"github.com/focalsolution/micro-cli"
+	"github.com/focalsolution/micro-go-micro"
+	"github.com/focalsolution/micro-go-micro/broker/service/handler"
+	pb "github.com/focalsolution/micro-go-micro/broker/service/proto"
+	"github.com/focalsolution/micro-go-micro/util/log"
 )
 
 var (
